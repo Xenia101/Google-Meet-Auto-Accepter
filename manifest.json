@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Google Meet Auto Accepter",
+    "description": "Google Meet Auto Accept Mecro",
+    "version": "0.1",
+    "icons": {
+        "16": "icon/icon.png",
+        "48": "icon/icon.png",
+        "128": "icon/icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://meet.google.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
