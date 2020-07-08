@@ -14,7 +14,7 @@ Only Used `Content Script` and made simple😗
 
 2. 도구 더보기
 
-3. [확장 프로그램](chrome://extensions/)
+3. 확장 프로그램 (chrome://extensions/)
 
 4. 개발자 모드 On
 
